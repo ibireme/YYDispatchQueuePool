@@ -66,7 +66,7 @@ This library requires a deployment target of iOS 6.0 or greater.
 
 License
 ==============
-YYAsyncLayer is provided under the MIT license. See LICENSE file for details.
+YYDispatchQueuePool is provided under the MIT license. See LICENSE file for details.
 
 
 
