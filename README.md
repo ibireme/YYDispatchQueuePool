@@ -34,28 +34,28 @@ Installation
 
 ### Cocoapods
 
-1. Add `pod "YYAsyncLayer"` to your Podfile.
+1. Add `pod "YYDispatchQueuePool"` to your Podfile.
 2. Run `pod install` or `pod update`.
-3. Import \<YYAsyncLayer/YYAsyncLayer.h\>.
+3. Import \<YYDispatchQueuePool/YYDispatchQueuePool.h\>.
 
 
 ### Carthage
 
-1. Add `github "ibireme/YYAsyncLayer"` to your Cartfile.
+1. Add `github "ibireme/YYDispatchQueuePool"` to your Cartfile.
 2. Run `carthage update --platform ios` and add the framework to your project.
-3. Import \<YYAsyncLayer/YYAsyncLayer.h\>.
+3. Import \<YYDispatchQueuePool/YYDispatchQueuePool.h\>.
 
 
 ### Manually
 
-1. Download all the files in the YYAsyncLayer subdirectory.
+1. Download all the files in the YYDispatchQueuePool subdirectory.
 2. Add the source files to your Xcode project.
-3. Import `YYAsyncLayer.h`.
+3. Import `YYDispatchQueuePool.h`.
 
 
 Documentation
 ==============
-Full API documentation is available on [CocoaDocs](http://cocoadocs.org/docsets/YYAsyncLayer/).<br/>
+Full API documentation is available on [CocoaDocs](http://cocoadocs.org/docsets/YYDispatchQueuePool/).<br/>
 You can also install documentation locally using [appledoc](https://github.com/tomaz/appledoc).
 
 
