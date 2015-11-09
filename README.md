@@ -13,6 +13,9 @@ iOS utility class to manage global dispatch queue.<br/>
 
 When use a concurrent queue to execute lots of blocks, I met this problem in some situation:
 
+<img src="https://raw.github.com/ibireme/YYDispatchQueuePool/master/Snapshots/CTRunDraw.png" width="320">
+<img src="https://raw.github.com/ibireme/YYDispatchQueuePool/master/Snapshots/CTRunDrawLock.png" width="320">
+
 When some block is locked, the concurrent queue may create lots of thread and may block the main thread.
 Use a global serial queue pool to avoid it.
 
@@ -76,6 +79,8 @@ iOS 全局并发队列管理工具。<br/>
 
 当用 concurrent queue 来执行大量 block 时，有时会遇到下面这种情况：
 
+<img src="https://raw.github.com/ibireme/YYDispatchQueuePool/master/Snapshots/CTRunDraw.png" width="320">
+<img src="https://raw.github.com/ibireme/YYDispatchQueuePool/master/Snapshots/CTRunDrawLock.png" width="320">
 
 当某个 block 所在线程被锁住时，concurrent queue 会创建大量线程以至于占用了过多资源而影响到主线程。这里可以用一个全局的 serial queue pool 来尽量控制全局线程数。
 
