@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'YYDispatchQueuePool'
   s.summary      = 'iOS utility class to manage global dispatch queue.'
-  s.version      = '0.9.0'
+  s.version      = '0.9.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'
