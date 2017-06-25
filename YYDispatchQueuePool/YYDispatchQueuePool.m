@@ -90,6 +90,7 @@ static void YYDispatchContextRelease(YYDispatchContext *context) {
         context->queues = NULL;
     }
     if (context->name) free((void *)context->name);
+    free(context);
 }
 
 static dispatch_queue_t YYDispatchContextGetQueue(YYDispatchContext *context) {
