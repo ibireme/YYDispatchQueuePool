@@ -13,7 +13,7 @@
 
 /* Begin PBXFileReference section */
 		D9A995051F0561A10062698B /* YYDispatchQueuePool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYDispatchQueuePool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9A995091F0561A10062698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A995091F0561A10062698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Framework/Info.plist; sourceTree = "<group>"; };
 		D9A995111F0561E40062698B /* YYDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDispatchQueuePool.h; sourceTree = "<group>"; };
 		D9A995121F0561E40062698B /* YYDispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDispatchQueuePool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				D9A995101F0561E40062698B /* YYDispatchQueuePool */,
-				D9A995091F0561A10062698B /* Info.plist */,
 				D9A995061F0561A10062698B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +50,7 @@
 			children = (
 				D9A995111F0561E40062698B /* YYDispatchQueuePool.h */,
 				D9A995121F0561E40062698B /* YYDispatchQueuePool.m */,
+				D9A995091F0561A10062698B /* Info.plist */,
 			);
 			name = YYDispatchQueuePool;
 			path = ../YYDispatchQueuePool;
